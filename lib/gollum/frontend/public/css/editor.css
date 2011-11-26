@@ -70,6 +70,10 @@ a {
   color: #999;
 }
 
+#gollum-editor-edit-summary {
+  margin-bottom: 0 !important;
+}
+
 #gollum-editor-title-field input#gollum-editor-page-title {
   font-weight: bold;
   margin-top: 0;

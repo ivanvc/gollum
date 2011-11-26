@@ -38,7 +38,7 @@ a:hover, a:visited {
 /* @section head */
 #head {
   margin: 4.5em 0 0.5em;
-  padding: 0.5em 0;
+  padding: 0.5em 0 0;
   overflow: hidden;
 }
 
@@ -54,6 +54,8 @@ a:hover, a:visited {
 #wiki-content {
   height: 1%;
   overflow: visible;
+  font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4;
 }
 
   #wiki-content .wrap {
@@ -209,6 +211,8 @@ a:hover, a:visited {
   /* @section page-footer */
   .page #footer {
     margin: 1em 0 7em;
+    font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4;
   }
   
   #footer p#last-edit {
