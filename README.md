@@ -1,6 +1,13 @@
 gollum -- A wiki built on top of Git
 ====================================
 
+## ABOUT THIS FORK
+
+This fork contains basic authoring of commit messages. It adds two input while
+editing/creating pages, letting the user to specify its Name and E-Mail. These
+values are then stored in session variables, so they will live until the session
+expires. There's no authentication involved.
+
 ## DESCRIPTION
 
 Gollum is a simple wiki system built on top of Git that powers GitHub Wikis.
