@@ -41,13 +41,13 @@ a {
   width: 100%;
 }
 
-#gollum-editor .singleline {
+#gollum-editor .singleline, #gollum-editor .twofields {
   display: block;
   margin: 0 0 0.7em 0;
   overflow: hidden;
 }
 
-#gollum-editor .singleline input {
+#gollum-editor .singleline input, #gollum-editor .twofields input {
   background: #fff;
   border: 1px solid #ddd;
   color: #000;
@@ -56,10 +56,17 @@ a {
   line-height: 1.8em;
   margin: 1em 0 0.4em;
   padding: 0.5em;
+}
+
+#gollum-editor .singleline input {
   width: 98%;
 }
 
-#gollum-editor .singleline input.ph {
+#gollum-editor .twofields input {
+  width: 48%;
+}
+
+#gollum-editor .singleline input.ph, #gollum-editor .twofields input.ph {
   color: #999;
 }
 

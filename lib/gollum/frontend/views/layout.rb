@@ -15,6 +15,14 @@ module Precious
       def title
         "Home"
       end
+
+      def author_email
+        @author && @author[:email]
+      end
+
+      def author_name
+        @author && @author[:name]
+      end
     end
   end
 end

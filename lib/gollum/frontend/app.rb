@@ -29,12 +29,21 @@ module Precious
 
     # Sinatra error handling
     configure :development, :staging do
-      enable :show_exceptions, :dump_errors
+      enable :show_exceptions, :dump_errors, :sessions
       disable :raise_errors, :clean_trace
     end
 
     configure :test do
       enable :logging, :raise_errors, :dump_errors
+    end
+
+    before do
+      if params[:author]
+        session[:author] = { :name  => params[:author][:name],
+                             :email => params[:author][:email] }
+      end
+
+      @author = session[:author]
     end
 
     get '/' do
@@ -208,7 +217,9 @@ module Precious
     end
 
     def commit_message
-      { :message => params[:message] }
+      { :message => params[:message],
+        :name    => params[:author] && params[:author][:name],
+        :email   => params[:author] && params[:author][:email] }
     end
   end
 end

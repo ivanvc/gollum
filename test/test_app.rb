@@ -29,6 +29,23 @@ context "Frontend" do
     assert_not_equal page_1.version.sha, page_2.version.sha
   end
 
+  test "edits page with author" do
+    page_1 = @wiki.page('A')
+    post "/edit/A", :content => 'abc',
+      :format => page_1.format, :message => 'def',
+      :author => { :email => 'test@example.com', :name => 'Testing' }
+    follow_redirect!
+    assert last_response.ok?
+
+    @wiki.clear_cache
+    page_2 = @wiki.page(page_1.name)
+    assert_equal 'abc', page_2.raw_data
+    assert_equal 'def', page_2.version.message
+    assert_equal 'test@example.com', page_2.version.author.email
+    assert_equal 'Testing', page_2.version.author.name
+    assert_not_equal page_1.version.sha, page_2.version.sha
+  end
+
   test "edits page footer and sidebar" do
     commits = @wiki.repo.commits('master').size
     page_1  = @wiki.page('A')
