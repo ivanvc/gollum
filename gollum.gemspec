@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 
   s.name              = 'gollum'
   s.version           = '1.3.1'
-  s.date              = '2011-07-21'
+  s.date              = '2011-11-28'
   s.rubyforge_project = 'gollum'
 
   s.summary     = "A simple, Git-powered wiki."
@@ -66,240 +66,6 @@ Gem::Specification.new do |s|
     lib/gollum/frontend/public/javascript/MathJax/config/MMLorHTML.js
     lib/gollum/frontend/public/javascript/MathJax/config/MathJax.js
     lib/gollum/frontend/public/javascript/MathJax/config/local/local.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.buildinfo
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/CSS-styles.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/HTML-snippets.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/ajax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/callback.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/elementjax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/html.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/hub.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/index.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/inputjax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/jax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/message.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/object.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/outputjax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/queue.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/signal.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/api/variable.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/callbacks.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/community.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/configuration.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/dynamic.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/environment.pickle
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/glossary.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/index.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/installation.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/jsMath.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/mathjax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/mathml.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/model.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/FontWarnings.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/HTML-CSS.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/MMLorHTML.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/MathML.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/MathMenu.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/MathZoom.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/NativeMML.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/TeX.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/hub.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/jsMath2jax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/mml2jax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/options/tex2jax.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/output.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/platforms/index.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/platforms/movable-type.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/platforms/wordpress.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/queues.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/signals.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/start.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/startup.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/synchronize.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/tex.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/.doctrees/typeset.doctree
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/CSS-styles.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/HTML-snippets.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/badge.gif
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/mt_head.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/mt_menu.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/mt_templates.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/wp_menu.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_images/wp_templates.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/CSS-styles.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/HTML-snippets.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/ajax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/callback.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/elementjax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/html.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/hub.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/index.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/inputjax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/jax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/message.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/object.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/outputjax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/queue.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/signal.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/api/variable.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/callbacks.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/community.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/configuration.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/dynamic.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/glossary.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/index.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/installation.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/jsMath.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/mathjax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/mathml.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/model.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/FontWarnings.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/HTML-CSS.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/MMLorHTML.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/MathML.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/MathMenu.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/MathZoom.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/NativeMML.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/TeX.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/hub.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/jsMath2jax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/mml2jax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/options/tex2jax.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/output.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/platforms/index.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/platforms/movable-type.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/platforms/wordpress.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/queues.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/signals.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/start.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/startup.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/synchronize.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/tex.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_sources/typeset.txt
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/basic.css
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/doctools.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/file.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/jquery.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/mathjax_mathml.user.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/mathjax_wikipedia.user.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/minus.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/mj.css
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/plus.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/pygments.css
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/searchtools.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/_static/underscore.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/ajax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/callback.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/elementjax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/html.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/hub.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/index.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/inputjax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/jax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/message.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/object.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/outputjax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/queue.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/signal.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/api/variable.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/callbacks.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/community.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/configuration.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/dynamic.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/genindex.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/glossary.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/index.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/installation.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/jsMath.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/mathjax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/mathml.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/model.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/objects.inv
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/FontWarnings.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/HTML-CSS.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/MMLorHTML.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/MathML.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/MathMenu.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/MathZoom.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/NativeMML.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/TeX.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/hub.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/jsMath2jax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/mml2jax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/options/tex2jax.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/output.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/platforms/index.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/platforms/movable-type.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/platforms/wordpress.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/queues.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/search.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/searchindex.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/signals.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/start.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/startup.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/synchronize.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/tex.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/html/typeset.html
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/CSS-styles.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/HTML-snippets.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/_static/mathjax_mathml.user.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/_static/mathjax_wikipedia.user.js
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/ajax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/callback.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/elementjax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/html.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/hub.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/index.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/inputjax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/jax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/message.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/object.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/outputjax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/queue.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/signal.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/api/variable.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/callbacks.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/community.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/conf.py
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/configuration.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/dynamic.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/glossary.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/images/mt_head.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/images/mt_menu.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/images/mt_templates.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/images/wp_menu.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/images/wp_templates.png
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/index.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/installation.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/jsMath.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/mathjax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/mathml.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/mjtheme/static/mj.css_t
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/mjtheme/theme.conf
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/model.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/FontWarnings.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/HTML-CSS.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/MMLorHTML.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/MathML.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/MathMenu.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/MathZoom.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/NativeMML.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/TeX.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/hub.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/jsMath2jax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/mml2jax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/options/tex2jax.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/output.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/platforms/index.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/platforms/movable-type.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/platforms/wordpress.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/queues.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/signals.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/start.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/startup.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/synchronize.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/tex.rst
-    lib/gollum/frontend/public/javascript/MathJax/docs/rst/typeset.rst
     lib/gollum/frontend/public/javascript/MathJax/extensions/FontWarnings.js
     lib/gollum/frontend/public/javascript/MathJax/extensions/MathMenu.js
     lib/gollum/frontend/public/javascript/MathJax/extensions/MathZoom.js
@@ -717,6 +483,23 @@ Gem::Specification.new do |s|
     lib/gollum/sanitization.rb
     lib/gollum/wiki.rb
     templates/formatting.html
+    test/examples/empty.git/HEAD
+    test/examples/empty.git/config
+    test/examples/empty.git/description
+    test/examples/empty.git/hooks/applypatch-msg.sample
+    test/examples/empty.git/hooks/commit-msg.sample
+    test/examples/empty.git/hooks/post-commit.sample
+    test/examples/empty.git/hooks/post-receive.sample
+    test/examples/empty.git/hooks/post-update.sample
+    test/examples/empty.git/hooks/pre-applypatch.sample
+    test/examples/empty.git/hooks/pre-commit.sample
+    test/examples/empty.git/hooks/pre-rebase.sample
+    test/examples/empty.git/hooks/prepare-commit-msg.sample
+    test/examples/empty.git/hooks/update.sample
+    test/examples/empty.git/info/exclude
+    test/examples/empty.git/objects/info/.gitkeep
+    test/examples/empty.git/objects/pack/.gitkeep
+    test/examples/empty.git/refs/heads/.gitkeep
     test/examples/lotr.git/COMMIT_EDITMSG
     test/examples/lotr.git/HEAD
     test/examples/lotr.git/config
@@ -796,20 +579,6 @@ Gem::Specification.new do |s|
     test/examples/yubiwa.git/objects/ac/e97abf2b177815a1972d7db22f229f58c83309
     test/examples/yubiwa.git/objects/b1/f443863a4816628807fbf86141ebef055dda34
     test/examples/yubiwa.git/refs/heads/master
-    test/examples/empty.git/info/exclude
-    test/examples/empty.git/hooks/pre-commit.sample
-    test/examples/empty.git/hooks/pre-rebase.sample
-    test/examples/empty.git/hooks/post-update.sample
-    test/examples/empty.git/hooks/applypatch-msg.sample
-    test/examples/empty.git/hooks/prepare-commit-msg.sample
-    test/examples/empty.git/hooks/commit-msg.sample
-    test/examples/empty.git/hooks/post-receive.sample
-    test/examples/empty.git/hooks/post-commit.sample
-    test/examples/empty.git/hooks/update.sample
-    test/examples/empty.git/hooks/pre-applypatch.sample
-    test/examples/empty.git/config
-    test/examples/empty.git/HEAD
-    test/examples/empty.git/description
     test/helper.rb
     test/test_app.rb
     test/test_committer.rb
