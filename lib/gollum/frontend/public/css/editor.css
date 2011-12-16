@@ -74,12 +74,13 @@ a {
   margin-bottom: 0 !important;
 }
 
+#gollum-editor-rename-field input#gollum-editor-rename,
 #gollum-editor-title-field input#gollum-editor-page-title {
   font-weight: bold;
   margin-top: 0;
 }
 
-#gollum-editor-title-field.active {
+#gollum-editor-rename-field.active, #gollum-editor-title-field.active {
   border-bottom: 1px solid #ddd;
   display: block;
   margin: 0 0 0.3em 0;
@@ -103,7 +104,8 @@ a {
 }
 
 
-#gollum-editor-title-field + #gollum-editor-function-bar {
+#gollum-editor-rename-field + #gollum-editor-title-field +
+#gollum-editor-function-bar {
   margin-top: 0.6em;
 }
 

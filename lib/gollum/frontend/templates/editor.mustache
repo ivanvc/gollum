@@ -14,6 +14,10 @@
   {{/is_create_page}}
   {{#is_edit_page}}
   <input type="hidden" name="page" id="gollum-editor-page-title" value="{{page_name}}">
+  <div id="gollum-editor-rename-field" class="singleline">
+    <label for="page" class="jaws">Page Title</label>
+    <input type="text" name="rename" id="gollum-editor-rename" value="{{page_name}}">
+  </div>
   {{/is_edit_page}}
   <div id="gollum-editor-function-bar">
     <div id="gollum-editor-function-buttons">
