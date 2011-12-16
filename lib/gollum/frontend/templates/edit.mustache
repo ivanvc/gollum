@@ -17,7 +17,7 @@
 jQuery(document).ready(function() {
   $.GollumEditor();
 
-  $("minibutton.delete a").live('click', function() {
+  $(".minibutton.delete a").live('click', function() {
     if (confirm('Are you sure?')) {
       var $form = $('<form method="POST" action="' + $(this).attr('href') +
         '"></form>');
