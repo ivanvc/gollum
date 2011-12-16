@@ -3,10 +3,13 @@ gollum -- A wiki built on top of Git
 
 ## ABOUT THIS FORK
 
-This fork contains basic authoring of commit messages. It adds two input while
-editing/creating pages, letting the user to specify its Name and E-Mail. These
-values are then stored in session variables, so they will live until the session
-expires. There's no authentication involved.
+This fork contains the following changes/improvements:
+
+* Basic authoring of commit messages (Name and E-Mail fields in create/edit
+  pages). These values are stored in session variables, it involves *no*
+  authentication at all
+* Enable rename of pages
+* Enable deletion of pages
 
 ## DESCRIPTION
 
