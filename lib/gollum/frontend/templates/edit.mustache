@@ -6,6 +6,9 @@
        class="action-view-page">View Page</a></li>
     <li class="minibutton"><a href="/history/{{escaped_name}}"
        class="action-page-history">Page History</a></li>
+    <li class="minibutton delete">
+        <a href="/delete/{{escaped_name}}">Delete</a>
+      </li>
   </ul>
 </div>
   <div id="wiki-content">{{>editor}}</div>
@@ -13,5 +16,16 @@
 <script type="text/javascript">
 jQuery(document).ready(function() {
   $.GollumEditor();
+
+  $("minibutton.delete a").live('click', function() {
+    if (confirm('Are you sure?')) {
+      var $form = $('<form method="POST" action="' + $(this).attr('href') +
+        '"></form>');
+      var $input = '<input type="hidden" name="_method" value="delete" />';
+      $(this).parent().append($form);
+      $form.hide().append($input).submit();
+    }
+    return false;
+  });
 });
 </script>

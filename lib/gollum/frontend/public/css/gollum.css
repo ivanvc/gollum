@@ -510,6 +510,14 @@ ul.actions {
   -webkit-border-radius: 3px;
 }
 
+.minibutton.delete a {
+  background: -webkit-linear-gradient(top, #EE5F5B, #C43C35);
+  background: -moz-linear-gradient(top, #EE5F5B, #C43C35);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
 #search-submit {
   background-color: #f7f7f7;
   border: 1px solid #d4d4d4;
@@ -541,6 +549,12 @@ ul.actions {
   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#599bdc', endColorstr='#3072b3');
   background: -webkit-gradient(linear, left top, left bottom, from(#599bdc), to(#3072b3));
   background: -moz-linear-gradient(top, #599bdc, #3072b3);
+}
+
+.minibutton.delete a:hover {
+  background: -webkit-linear-gradient(top, #FE6F6B, #D44C45);
+  background: -moz-linear-gradient(top, #FE6F6B, #D44C45);
+  border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
 }
 
 .minibutton a:visited {

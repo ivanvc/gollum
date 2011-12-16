@@ -13,8 +13,9 @@ module Precious
     dir = File.dirname(File.expand_path(__FILE__))
 
     # We want to serve public assets for now
-    set :public_folder, "#{dir}/public"
-    set :static,         true
+    set :public_folder,   "#{dir}/public"
+    set :static,          true
+    set :method_override, true
 
     set :mustache, {
       # Tell mustache where the Views constant lives
@@ -91,6 +92,16 @@ module Precious
         @message = "Duplicate page: #{e.message}"
         mustache :error
       end
+    end
+
+    delete '/delete/*' do
+      wiki = Gollum::Wiki.new(settings.gollum_path, settings.wiki_options)
+      name = params[:splat].first
+      page = wiki.page(name)
+
+      wiki.delete_page(page, commit_message)
+
+      redirect "/"
     end
 
     post '/revert/:page/*' do
