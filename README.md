@@ -6,8 +6,8 @@ gollum -- A wiki built on top of Git
 This fork contains the following changes/improvements:
 
 * Basic authoring of commit messages (Name and E-Mail fields in create/edit
-  pages). These values are stored in session variables, it involves *no*
-  authentication at all
+  pages). These values are stored in session variables, it involves **no
+  authentication** at all
 * Enable rename of pages
 * Enable deletion of pages
 
